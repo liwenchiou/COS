@@ -31,6 +31,10 @@ const colors = [
 
 function addSegment() {
   const input_v = document.querySelector("#input_value");
+  if(input_v==""){
+    alert("選項不可為空!!");
+    return;
+  }
   // console.log(input_v.value);
   // return;
   const segmentCount = segments.length + 1; // 更新分割區塊數量
