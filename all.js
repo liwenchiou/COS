@@ -31,7 +31,7 @@ const colors = [
 
 function addSegment() {
   const input_v = document.querySelector("#input_value");
-  if(input_v==""){
+  if(input_v.value==""){
     alert("選項不可為空!!");
     return;
   }
