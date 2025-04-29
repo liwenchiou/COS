@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.css">
+  </head>
+  <body>
+    <h1>選擇障礙的救星</h1>
+    <svg width="300" height="300">
+        <g id="wheel" transform="rotate(0)">
+          <!-- 區塊和文字會透過 JS 動態生成 -->
+        </g>
+        <!-- <path d="M150,10 L140,-10 L160,-10 Z" fill="#000" /> -->
+        <path d="M150,10 L140,-10 L160,-10 Z" fill="red" />
+      </svg>
+      <div class="input">
+        <labe>輸入項目:</labe>
+        <input type="text" id="input_value">
+      </div>
+      <div class="btn-group">
+      
+        <button onclick="addSegment()">新增分割區塊</button>
+        <button onclick="toggleRotation()">開始/停止旋轉</button>
+      </div>
+    <script src="all.js"></script>
+  </body>
+</html>
